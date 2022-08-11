@@ -5,8 +5,14 @@
 }
 
 body {
-  background-color: #FFEDD5;
   font-family: 'Roboto', sans-serif;
+  
+    margin: 0; 
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+     background: url('https://i.pinimg.com/236x/9b/f2/7b/9bf27bd5a2b74c2350b416ae3e07cf88.jpg');
+    background-size: cover;
 }
 
 ul {
@@ -15,9 +21,9 @@ ul {
 
 /* FONTS */
 h1, h2, h3, .price {
-  font-family: 'Roboto Serif', serif;
+  font-family: 'EB Garamond', serif;
   text-transform: uppercase;
-  color: #2D2C2A;
+  color: #e5e9e4;
 }
 
 header {
@@ -37,16 +43,11 @@ header h1 {
   line-height: 33px;
 }
 
-
-header h1 span{
-  color: #995000;
-}
-
 header p {
   font-size: 14px;
   line-height: 16px;
 
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(7, 255, 7, 0.7);
 }
 
 section {
@@ -54,8 +55,8 @@ section {
 }
 
 section h2 {
-  background-color: #FED7AA;
-  padding: 8px 16px;
+  background-color: #ae6a6e00;
+  padding: 8px 1px;
   text-align: center;
 
   margin-bottom: 24px;
@@ -78,7 +79,7 @@ li .details {
 }
 
 .details p {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgb(43, 175, 22);
   font-size: 14px;
   line-height: 21px;
 }
